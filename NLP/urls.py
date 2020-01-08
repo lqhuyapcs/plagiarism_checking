@@ -20,5 +20,5 @@ from plagiarismchecking import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('plagiarismcheckings', csrf_exempt(views.PlagiarismCheckList)),
+    path('plagiarismcheck', csrf_exempt(views.PlagiarismCheckList)),
 ]
